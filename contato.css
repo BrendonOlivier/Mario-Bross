@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Super Mario Maker Extended', sans-serif;
+                                                
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.img-fundo {
+    z-index: -2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-3 {
+    width: 50px;
+    margin-top: 7px;
+    
+   
+}
+
+ a {
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo-3:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+     transform: scale(1.3);
+     transition-duration: 1s;
+}
+
+.img-irmaos {
+    width: 400px;
+    margin-left: 780px;
+    position: absolute;
+    top: 100px;
+}
+
+.header a:hover {
+    color:rgb(159, 6, 6);
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.inicio {
+    color: green;
+}
+
+.serviços {
+    color: black;
+}
+
+.fale {
+    color: blue;
+}   
+
+
+@media(max-width: 450px) {
+
+
+
+    .header {
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+          
+    }
+
+    .header img {
+
+        display: flex;
+    }
+
+    .header a {
+
+        font-size: 15px;
+    }
+
+    .header a:hover {
+        font-size: 15px;
+    }
+
+    .img-fundo {
+        background: 180%;
+        
+    }
+
+    .img-irmaos {
+
+        display: none;
+    }
+
+    .header img:hover {
+        height: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
